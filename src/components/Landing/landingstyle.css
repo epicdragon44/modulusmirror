@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+body.landing {
+}
+
+#animatron {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    z-index: 999;
+    margin-left: 1.5em;
+}
+
+@keyframes slidein {
+    0% {
+        margin-top: 50px;
+    }
+    50% {
+        margin-top: 150px;
+    }
+    100% {
+        margin-top: 50px;
+    }
+}
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 3em 10% 3em 10%;
+    /* background-image: url('./images/section1.jpg'); */
+    background-color: white;
+    
+    height: 50em;
+    box-shadow: 0 10px 29px 0 rgb(153, 153, 153);
+}
+
+#section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+#awardwinner {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#mobilenewssicon {
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+#mobilenewsteens {
+    color: grey;
+    font-family: Shadows Into Light;
+    font-style: italic;
+    font-size: x-large;
+}
+
+#mobilenewscovlab {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+#newssicon {
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    width: 30em;
+    font-size: x-large;
+}
+
+#newsteens {
+    color: grey;
+    font-family: Shadows Into Light;
+    font-style: italic;
+    width: 30em;
+    font-size: x-large;
+}
+
+#newscovlab {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30em;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+#sectionnews {
+    margin: 3em 0 3em 0;
+    box-shadow: 0 10px 29px 0 rgb(153, 153, 153);
+    text-align: center;
+    padding: 1em 1em 2em 1em;
+    background-color: whitesmoke;
+}
+
+#sectionstats {
+    margin: 3em 0 3em 0;
+    text-align: center;
+    padding: 1em 1em 2em 1em;
+}
+
+#newslink {
+    color: gray;
+    transition: 0.7s;
+}
+
+#newslink:hover {
+    color: black;
+}
+
+#rowofstuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#aboutus {
+    margin: 3em 0 3em 0;
+    text-align: center;
+    padding: 1em 1em 2em 1em;
+}
+
+#abouthead {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#aboutpar {
+    font-family: 'Roboto';
+    font-size: large;
+    padding: 0 20% 0 20%;
+    line-height: 1.3em;
+}
+
+#shadedmobilesection3 {
+    margin: 0em 0 3em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding: 2em auto 2em auto;
+    background-color: whitesmoke;
+}
+
+#mobilesection3 {
+    margin: 3em 0 3em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding: 2em auto 2em auto;
+    background-color: white;
+}
+
+#section3 {
+    margin: 3em 0 3em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding: 2em auto 2em auto;
+    background-color: whitesmoke;
+}
+
+#section3light {
+    margin: 3em 0 3em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding: 2em auto 2em auto;
+    background-color: white;
+}
+
+#feature {
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+#mobile-feature h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#mobile-feature {
+    text-align: center;
+    width: 95%;
+    padding: 0 0.5em 0 0.5em;
+}
+
+#feature h1 {
+    font-family: 'Roboto';
+    font-size: large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#feature h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+    margin: 0 3em 0 3em;
+}
+
+#vertdiv {
+    border-right: 2px solid black;
+}
+
+#leftheader {
+    font-family: 'Roboto Slab';
+    font-size: 5em;
+    width: 60%;
+    margin-top: 1.75em;
+}
+
+#rightheader {
+    width: 40%;
+    text-align: center;
+    background-image: url('images/desktop.svg');
+    background-position: center;
+}
+
+#mobilesignupbutton {
+    margin-top: 2em;
+    margin-left: 0;
+    border: 3px solid #003459;
+    background-color: white;
+    border-radius: 10px;
+    font-size: x-large;
+    width: fit-content;
+    padding: 0.5em 1em 0.5em 1em;
+    transition: 0.3s;
+}
+
+#mobilesignupbutton:hover {
+    background-color: #003459;
+    color: white;
+}
+
+#signupbutton {
+    margin-top: 2em;
+    margin-left: 0;
+    border: 3px solid #003459;
+    background-color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+    width: fit-content;
+    padding: 0.5em 1em 0.5em 1em;
+    transition: 0.3s;
+}
+
+#signupbutton:hover {
+    background-color: #003459;
+    color: white;
+}
+
+#avatar {
+    width: 15%;
+    margin: 0 15px 0 15px;
+}
+
+#mobileavatar {
+    margin: 0 15px 0 15px;
+    width: 25%;
+}
+
+#featurepic {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#personpic {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+#title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+    margin: 0 0 0.3em 0;
+}
+
+#footer {
+    margin: 1em 0 0 0;
+    box-shadow: 0 10px 29px 0 rgb(153, 153, 153);
+    text-align: center;
+    padding: 2em 1em 1.75em 1em;
+    color: white;
+    background-color: #333;
+}
+
+#whitelink {
+    color: white;
+}
+
+#linkrow {
+    margin-top: 1em;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonrow {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#featurehead {
+    margin-top: 1.2em;
+    font-family: 'Roboto Slab';
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+
+#switchbutton {
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+    border: 2px solid #003459;
+    outline: none;
+}
+
+#switchbutton:hover {
+    background-color: white;
+    color: #003459;
+    border: 2px solid #003459;
+}
+
+#activeswitchbutton {
+    background-color: white;
+    color: #003459;
+    border: 2px solid #003459;
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+    outline: none;
+}
+
+#featurefeature {
+    text-align: center;
+}
+
+#featurepic {
+    margin: 2em 2em 2em 2em;
+    width: 60%;
+}
+
+#nothin {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: 0.7s;
+}
+
+#nothin:hover {
+    color: black;
+}
+
+#statnum {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+#mobile-section1 {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    padding: 1em 1em 1em 1em;
+    background-image: url('./images/mobilewall.png');
+    background-size: 100%;
+}
+
+#notopmargin {
+    margin-top: 0;
+}
+
+#mobilenotopmargin {
+    font-size: xx-large;
+    margin-top: 0;
+}
